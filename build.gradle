@@ -35,20 +35,11 @@ repositories {
 
 dependencies {
     compile('org.springframework.boot:spring-boot-starter-web')
-    compile('org.springframework.boot:spring-boot-starter-aop')
 
-    compile('com.jayway.jsonpath:json-path')
-
-    compile('com.fasterxml.jackson.core:jackson-core')
-    compile('com.fasterxml.jackson.datatype:jackson-datatype-jdk8')
-    compile('com.fasterxml.jackson.datatype:jackson-datatype-jsr310')
+    compile('ca.uhn.hapi.fhir:hapi-fhir-base:2.4')
+    compile('ca.uhn.hapi.fhir:hapi-fhir-structures-dstu3:2.4')
 
     compile('org.apache.commons:commons-lang3:3.4')
-    compile('org.apache.httpcomponents:httpclient:4.4')
-    compile('org.apache.httpcomponents:httpasyncclient:4.1.2')
-
-    testCompile('org.springframework.boot:spring-boot-test')
-    testCompile('org.springframework.boot:spring-boot-starter-test')
 }
 
 

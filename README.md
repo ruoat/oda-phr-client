@@ -11,6 +11,7 @@ a patient resource with a id.
 ### In development
 ```
 ./gradlew clean build
+```
 
 ## Running the service
 

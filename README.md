@@ -1,4 +1,4 @@
-# oda-fhir-client
+# oda-phr-client
 
 This is a ODA PHR Reference Client implementation.
 Currently it contains two classes: PatientService.java and PhrClientExample.java.
